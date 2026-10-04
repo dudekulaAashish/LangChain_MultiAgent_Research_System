@@ -2,8 +2,10 @@ from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI 
 from langchain_core.prompts import ChatPromptTemplate 
 from langchain_core.output_parsers import StrOutputParser
-from src.tools.tools import web_search, scrape_url
+from src.tools.tools import scrape_url, web_search
 from dotenv import load_dotenv
+
+
 
 load_dotenv() 
 
